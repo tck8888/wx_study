@@ -1,0 +1,19 @@
+<!--pages/posts/posts.wxml-->
+<view class='container'>
+  <swiper autoplay='true' 
+          indicator-dots='true' 
+          interval='3000'
+          indicator-active-color='#ffffff'
+          indicator-color='rgba(255,255,255,.3)'
+          >
+    <swiper-item >
+      <image src='https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640' ></image>
+    </swiper-item>
+      <swiper-item >
+      <image src='https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640'></image>
+    </swiper-item>
+      <swiper-item >
+      <image src='https://images.unsplash.com/photo-1551446591-142875a901a1?w=640' ></image>
+    </swiper-item>
+  </swiper>
+</view>
